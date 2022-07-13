@@ -1,0 +1,15 @@
+<script>
+    let a = 'a';
+    
+    function A(){
+        function B(){
+            let c = 'c';
+            console.log(a,b,c);
+        }
+        let b = 'b';
+        console.log(a,b);
+        B();
+    }
+
+    A();
+</script>

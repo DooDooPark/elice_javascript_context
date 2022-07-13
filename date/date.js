@@ -18,6 +18,8 @@ console.log(now.toDateString())
 console.log(now.toTimeString())
 console.log(now.toLocaleString())
 
+
+
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
 
 function Calculator(a, b) {
